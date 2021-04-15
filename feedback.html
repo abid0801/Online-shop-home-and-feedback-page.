@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>ShopersStop</title>
+  </head>
+  <body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">ShopersStop</label>
+        <ul>
+          <li><a  href="ShopHome.html">Home</a></li>
+          <li><a class="active" href="feedback.html">Feedback</a></li>
+          <li><a href="#">Log In</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+          <label for="email">email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="Division">Division</label>
+          <select id="Division" name="division">
+            <option value="dhaka">Dhaka</option>
+            <option value="chittagong">Chittagong</option>
+            <option value="khulna">khulna</option>
+            <option value="sylhet">Sylhet</option>
+            <option value="barishal">Barishal</option>
+            <option value="mymenshingh">Mymenshingh</option>
+            <option value="rangpur">Rangpur</option>
+            <option value="rajshahi">Rajshahi</option>
+
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    <div class="contact">
+        <div>
+          <h4>Contact Us</h4>
+        </div>
+        <div class="contact-box">
+          <p>
+              Holdind no - 231/1 ECB Chattar, Dhaka Cantonment, Dhaka- 1206.
+          </p>
+          <p>
+            Email- abid_online_shop@gmail.com.
+          </p>
+          <p>
+            Phone- 01701010101.
+          </p>
+        </div>
+</div>
+      <footer class="footer-box">
+        <h1>©Abid's online shop</h1>
+      </footer>
+  </body>
+</html>
